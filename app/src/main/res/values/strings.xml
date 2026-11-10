@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parcial 2 EVALUACION</string>
+    <string name="titulo">EXAMEN PARCIAL</string>
+    <string name="solicitar">Solicitar datos</string>
+    <string name="cargando">Cargando datos… %1$d %%</string>
+    <string name="elige_categoria">Seleccione una categoría</string>
+    <string name="en_espera">Elige una categoría para ver su detalle.</string>
+    <string name="titulo_detalle">DETALLES</string>
+    <string-array name="categorias">
+        <item>Seleccionar categoría</item>
+        <item>Base de Datos</item>
+        <item>Red</item>
+        <item>Sincronizacion</item>
+        <item>Reportes</item>
+    </string-array>
+    <string-array name="productos_oficina">
+        <item>Registros leídos: 10</item>
+        <item>Registros validados: 10</item>
+    </string-array>
+
+    <!-- Red -->
+    <string-array name="productos_tecnologia">
+        <item>Paquetes enviados: 10</item>
+        <item>Respuestas recibidas: 10</item>
+    </string-array>
+
+    <!-- Sincronización -->
+    <string-array name="productos_limpieza">
+        <item>Elementos revisados: 10</item>
+        <item>Elementos sincronizados: 10</item>
+    </string-array>
+
+    <!-- Reportes -->
+    <string-array name="productos_cafeteria">
+        <item>Datos analizados: 10</item>
+        <item>Reportes generados: 1</item>
+    </string-array>
+</resources>

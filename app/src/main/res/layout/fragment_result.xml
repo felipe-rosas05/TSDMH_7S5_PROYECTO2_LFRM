@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtEspera"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="#ECEFF1"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/en_espera"
+        android:textColor="#263238"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/panelDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondo_detalle"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DBE8EE"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/titulo_detalle"
+            android:textColor="#233542"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="14dp"
+            android:padding="14dp"
+            android:textColor="#16232E"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
